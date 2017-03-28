@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+  background: #434A54;
+  margin: 0;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  text-align: center;
+  color: #f7f7f7;
+}
+div {
+  position: relative;
+  width: 700px;
+  height: 412px;
+  margin: 50px auto;
+  transition: all 1s;
+}
+div:hover {
+  width:124px;
+  transform: rotate(180deg);
+}
+div:active {
+  width:412px;
+  transform: rotate(90deg);
+}
+span:nth-child(2) {
+  right: 0;
+  border: solid 6px #4FC1E9;
+}
+span {
+  display: block;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border: solid 6px #FC6E51;
+  border-radius: 50%;
+}
+.mysite {
+  font-size: 18px;
+  text-decoration:  none;
+  color: rgba(0,0,0,0.5);
+  border-bottom: solid 1px rgba(0,0,0,0.5);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+</style>
+</head>
+
+<body>
+<div>
+  <span></span><span></span>
+</div>
+<p>
+  Hover over the logo. After that, press and hold it.
+</p>
+<a class="mysite" href="http://tystrong.me">Check out my new Site!</a>
+</body>
+</html>
